@@ -1,0 +1,27 @@
+31p 첫번째 애플리케이션
+
+라라벨 디렉터리 구성
+
+ex) laravel_docker/sample에 깔았을 때
+
+라라벨 최상단 루트가 /라고 했을 때 다음과 같다
+
+/app/   # 컨트롤러, 미들웨어, 예외 클래스, 콘솔, 프로바이더 등 주요한 처리 클래스가 있음
+/artisan
+/bootstrap/ # 가장 먼저 실행되는 처리나 자동 로딩 설정이 있음
+/composer.json
+/composer.lock
+/config/ # 애플리케이션 설정값 파일이 있음
+/database/ # 데이터베이스 관련 파일이 있음. 마이그레이션 파일이나 초기 입력 데이터를 배치함
+/package.json
+/phpunit.xml
+/public/
+/readme.md
+/resources/
+/routes/
+/server.php
+/storage/
+/tests/
+/vendor/
+/webpack.mix.js
+
